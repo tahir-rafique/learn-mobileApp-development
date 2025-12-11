@@ -6,6 +6,7 @@ import OnPress from './src/Components/OnPress';
 import UseStateHook from './src/Components/UseStateHook';
 import Props from './src/Components/Props';
 import InputText from './src/Components/InputText';
+import Styling from './src/Components/Styling';
 
 const App = () => {
   return (
@@ -25,8 +26,8 @@ const App = () => {
       {/* <UseStateHook/> */}
       {/*  step: 4 */}
       {/* <Props /> */}
-
-      <InputText/> 
+      {/* <InputText/>  */}
+      <Styling/>
 
 
 

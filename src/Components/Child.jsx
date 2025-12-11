@@ -8,7 +8,9 @@ const Child = (props) => {
 
   return (
     <View>
-      <Text style={{ fontSize: 30 }}>Child</Text>
+      <Text style={{ fontSize: 30
+        
+       }}>Child</Text>
       <Text style={{ fontSize: 30 }}>Count: {count}</Text>
       <Text style={{ fontSize: 30 }}>Items: {item}</Text>
     </View>

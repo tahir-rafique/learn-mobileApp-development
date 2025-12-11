@@ -16,12 +16,17 @@ const Props = () => {
 
   return (
     <View>
-      <Text style={{ fontSize: 30 }}>Prop</Text>
+      <Text 
+      
+      style={{ fontSize: 30 }}>Prop</Text>
 
       <Child data={count} items={item} />
 
       <View style={{ marginTop: 20 }}>
         <Button
+
+
+
           title='Add Count'
           onPress={() => updateCount()}
         />

@@ -11,7 +11,10 @@ const OnPress = () => {
 
   return (
     <View>
-      <Text style={{ fontSize: 20 }}>OnPress</Text>
+      <Text style={{ fontSize: 20
+
+        
+       }}>OnPress</Text>
       <Text style={{ fontSize: 20 }}>OnPress</Text>
       <Text style={{ fontSize: 20 }}>{myName}</Text>
       <Button

@@ -7,9 +7,14 @@ const InputText = () => {
   return (
     <View>
       <Text style={{ fontSize: 30, textAlign: 'center' }}>InputText</Text>
-      <Text style={{ fontSize: 30, textAlign: 'center' }}>Username: {username}</Text>
+      <Text style={{ fontSize: 30, 
+        
+        textAlign: 'center' }}>Username: {username}</Text>
 
       <TextInput
+
+
+
         value={username}
         onChangeText={(myData) => setUserame(myData)}
         placeholder='Enter Your Name'

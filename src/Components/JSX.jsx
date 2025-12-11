@@ -4,6 +4,9 @@ import React from 'react'
 const JSX = () => {
 
     const name = 'tahir';
+
+
+    
     return (
         <View>
             <Text>JSX</Text>

@@ -7,6 +7,7 @@ const UseStateHook = () => {
   const [name, setName] = useState('');
   const updateName = () => {
     setName('Dev Only!');
+    
     console.log(name);
   }
 
