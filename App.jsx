@@ -1,6 +1,6 @@
 // import { View, Text, Button } from 'react-native'
 import { View } from 'react-native';
-import React from 'react'
+import React from 'react';
 import JSX from './src/Components/JSX';
 import OnPress from './src/Components/OnPress';
 import UseStateHook from './src/Components/UseStateHook';
@@ -27,12 +27,9 @@ const App = () => {
       {/*  step: 4 */}
       {/* <Props /> */}
       {/* <InputText/>  */}
-      <Styling/>
-
-
-
+      <Styling />
     </View>
-  )
-}
+  );
+};
 
-export default App 
+export default App;
