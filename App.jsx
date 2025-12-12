@@ -1,18 +1,17 @@
-// import { View, Text, Button } from 'react-native'
-import { View } from 'react-native';
 import React from 'react';
+import { View } from 'react-native';
 import JSX from './src/Components/JSX';
 import OnPress from './src/Components/OnPress';
 import UseStateHook from './src/Components/UseStateHook';
 import Props from './src/Components/Props';
 import InputText from './src/Components/InputText';
 import Styling from './src/Components/Styling';
+import FlatListScreen from './src/Components/FlatListScreen';
 
 const App = () => {
   return (
     <View>
       {/* 
-  
       <Text>Tahir Mobile App Developer</Text>
       <Button
         title='Tahir'
@@ -27,7 +26,9 @@ const App = () => {
       {/*  step: 4 */}
       {/* <Props /> */}
       {/* <InputText/>  */}
-      <Styling />
+      {/* <Styling /> */}
+      <FlatListScreen/>
+
     </View>
   );
 };
