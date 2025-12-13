@@ -10,10 +10,11 @@ import FlatListScreen from './src/components/FlatListScreen';
 import SectionListScreen from './src/components/SectionListScreen';
 import LoginForm from './src/components/LoginForm';
 import ContactListScreen from './src/screens/Contact/ContactListScreen';
+import Grid from './src/components/Grid';
 
 const App = () => {
   return (
-    <View style={{ flex:1}}>
+    <View style={{ flex: 1 }}>
       {/* 
       <View> just like div in HTML</View>
       <Text>Tahir Mobile App Developer</Text>
@@ -48,7 +49,14 @@ const App = () => {
 
       {/*  step: 9*/}
       {/* <LoginForm /> */}
-      <ContactListScreen/>
+
+      {/*  step: 10*/}
+      {/* <ContactListScreen/> */}
+
+      {/*  step: 9*/}
+      <Grid />
+
+
     </View>
   );
 };
