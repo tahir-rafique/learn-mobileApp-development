@@ -29,6 +29,12 @@ const FlatListScreen = () => {
         keyExtractor={item => item.id}
         contentContainerStyle={styles.list}
       />
+
+      {/* {data.map((item,idx)=>(
+        <View key={idx}>
+          <Text>{item.title}</Text>
+        </View>
+      ))} */}
     </View>
   );
 };
@@ -50,7 +56,7 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     shadowColor: '#000',
     shadowOffset: {
-      width: 0,
+      width: 2,
       height: 2,
     },
     shadowOpacity: 0.1,
