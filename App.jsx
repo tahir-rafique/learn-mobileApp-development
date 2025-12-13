@@ -1,18 +1,19 @@
 import React from 'react';
 import { View } from 'react-native';
-import JSX from './src/Components/JSX';
-import OnPress from './src/Components/OnPress';
-import UseStateHook from './src/Components/UseStateHook';
-import Props from './src/Components/Props';
-import InputText from './src/Components/InputText';
-import Styling from './src/Components/Styling';
-import FlatListScreen from './src/Components/FlatListScreen';
-import SectionListScreen from './src/Components/SectionListScreen';
-import LoginForm from './src/Components/LoginForm';
+import JSX from './src/components/JSX';
+import OnPress from './src/components/OnPress';
+import UseStateHook from './src/components/UseStateHook';
+import Props from './src/components/Props';
+import InputText from './src/components/InputText';
+import Styling from './src/components/Styling';
+import FlatListScreen from './src/components/FlatListScreen';
+import SectionListScreen from './src/components/SectionListScreen';
+import LoginForm from './src/components/LoginForm';
+import ContactListScreen from './src/screens/Contact/ContactListScreen';
 
 const App = () => {
   return (
-    <View>
+    <View style={{ flex:1}}>
       {/* 
       <View> just like div in HTML</View>
       <Text>Tahir Mobile App Developer</Text>
@@ -46,7 +47,8 @@ const App = () => {
       {/* <SectionListScreen /> */}
 
       {/*  step: 9*/}
-      <LoginForm />
+      {/* <LoginForm /> */}
+      <ContactListScreen/>
     </View>
   );
 };
