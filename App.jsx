@@ -8,6 +8,7 @@ import InputText from './src/Components/InputText';
 import Styling from './src/Components/Styling';
 import FlatListScreen from './src/Components/FlatListScreen';
 import SectionListScreen from './src/Components/SectionListScreen';
+import LoginForm from './src/Components/LoginForm';
 
 const App = () => {
   return (
@@ -42,7 +43,10 @@ const App = () => {
       {/* <FlatListScreen/> */}
 
       {/*  step: 8 */}
-      <SectionListScreen />
+      {/* <SectionListScreen /> */}
+
+      {/*  step: 9*/}
+      <LoginForm />
     </View>
   );
 };
