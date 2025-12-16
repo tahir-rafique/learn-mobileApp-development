@@ -12,6 +12,7 @@ import LoginForm from './src/components/LoginForm';
 import ContactListScreen from './src/screens/Contact/ContactListScreen';
 import Grid from './src/components/Grid';
 import ClassBasedComp from './src/components/ClassBasedComp';
+import ClassBasedComponent from './src/components/ClassBasedComponent';
 
 const App = () => {
   return (
@@ -58,8 +59,8 @@ const App = () => {
       {/* <Grid /> */}
 
       {/*  step: 12*/}
-      <ClassBasedComp />
-
+      {/* <ClassBasedComp /> */}
+      <ClassBasedComponent />
 
     </View>
   );
