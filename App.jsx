@@ -11,8 +11,10 @@ import SectionListScreen from './src/components/SectionListScreen';
 import LoginForm from './src/components/LoginForm';
 import ContactListScreen from './src/screens/Contact/ContactListScreen';
 import Grid from './src/components/Grid';
-import ClassBasedComp from './src/components/ClassBasedComp';
 import ClassBasedComponent from './src/components/ClassBasedComponent';
+import UseEffectHookMountingPhase from './src/components/UseEffectHookMountingPhase';
+import UseEffectHookUpdatingPhase from './src/components/UseEffectHookUpdatingPhase';
+import UseEffectHookUnmoutingPhase from './src/components/UseEffectHookUnmoutingPhase';
 
 const App = () => {
   return (
@@ -59,8 +61,17 @@ const App = () => {
       {/* <Grid /> */}
 
       {/*  step: 12*/}
-      {/* <ClassBasedComp /> */}
-      <ClassBasedComponent />
+      {/* <ClassBasedComponent /> */}
+
+      {/*  step: 13*/}
+      {/* <UseEffectHookMountingPhase />  */}
+
+      {/*  step: 14*/}
+      {/* <UseEffectHookUpdatingPhase /> */}
+
+      {/*  step: 15*/}
+      <UseEffectHookUnmoutingPhase />
+
 
     </View>
   );
