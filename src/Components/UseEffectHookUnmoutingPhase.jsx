@@ -17,10 +17,7 @@ const UseEffectHookUnmoutingPhase = () => {
 
       <Text style={{ fontSize: 20, textAlign: 'center', fontWeight: 600, marginVertical: 20 }}> Parent Component</Text>
 
-      {
-        showChild ? <ShowChild /> : null
-      }
-
+      {showChild ? <ShowChild /> : null}
 
       <Button
         title='Toggle'
