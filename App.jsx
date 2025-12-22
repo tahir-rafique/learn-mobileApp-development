@@ -16,6 +16,7 @@ import UseEffectHookMountingPhase from './src/components/UseEffectHookMountingPh
 import UseEffectHookUpdatingPhase from './src/components/UseEffectHookUpdatingPhase';
 import UseEffectHookUnmoutingPhase from './src/components/UseEffectHookUnmoutingPhase';
 import StyleWithButton from './src/components/StyleWithButton';
+import Loader from './src/components/Loader';
 
 const App = () => {
   return (
@@ -73,8 +74,9 @@ const App = () => {
       {/*  step: 15*/}
       {/* <UseEffectHookUnmoutingPhase /> */}
 
-      <StyleWithButton/>
+      {/* <StyleWithButton/> */}
 
+      <Loader />
 
     </View>
   );
