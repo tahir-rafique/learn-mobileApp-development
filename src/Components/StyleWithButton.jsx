@@ -18,7 +18,8 @@ const StyleWithButton = () => {
 
       <TouchableHighlight
         style={styles.button}
-        onPress={() => console.log('Hello')}  // without onPress it not work like button don't show any effect if onPress not use.
+        onPress={() => console.log('Hello')}  
+        // without onPress it not work like button don't show any effect if onPress not use.
         underlayColor={'#3a1078'}
       >
         <Text style={styles.buttonText}>Touchable Hightlight</Text>

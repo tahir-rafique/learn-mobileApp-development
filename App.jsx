@@ -17,6 +17,8 @@ import UseEffectHookUpdatingPhase from './src/components/UseEffectHookUpdatingPh
 import UseEffectHookUnmoutingPhase from './src/components/UseEffectHookUnmoutingPhase';
 import StyleWithButton from './src/components/StyleWithButton';
 import Loader from './src/components/Loader';
+import PressableComponent from './src/components/PressableComponent';
+import StatusBarExample from './src/components/StatusBarExample';
 
 const App = () => {
   return (
@@ -74,10 +76,16 @@ const App = () => {
       {/*  step: 15*/}
       {/* <UseEffectHookUnmoutingPhase /> */}
 
+      {/*  step: 16*/}
       {/* <StyleWithButton/> */}
 
-      <Loader />
+      {/*  step: 17*/}
+      {/* <Loader />   */}
 
+      {/*  step: 18*/}
+      {/* <PressableComponent /> */}
+
+      <StatusBarExample />
     </View>
   );
 };
