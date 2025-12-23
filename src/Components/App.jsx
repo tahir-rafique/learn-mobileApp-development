@@ -19,7 +19,6 @@ import StyleWithButton from './src/components/StyleWithButton';
 import Loader from './src/components/Loader';
 import PressableComponent from './src/components/PressableComponent';
 import StatusBarExample from './src/components/StatusBarExample';
-import UseRefHook from './src/components/UseRefHook';
 
 const App = () => {
   return (
@@ -86,9 +85,7 @@ const App = () => {
       {/*  step: 18*/}
       {/* <PressableComponent /> */}
 
-      {/* <StatusBarExample /> */}
-
-      <UseRefHook/>
+      <StatusBarExample />
     </View>
   );
 };
