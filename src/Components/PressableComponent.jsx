@@ -15,7 +15,6 @@
 
 // export default PressableComponent
 
-/* eslint-disable prettier/prettier */
 import { View, Text, Pressable, StyleSheet } from 'react-native';
 import React from 'react';
 

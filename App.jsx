@@ -20,6 +20,7 @@ import Loader from './src/components/Loader';
 import PressableComponent from './src/components/PressableComponent';
 import StatusBarExample from './src/components/StatusBarExample';
 import UseRefHook from './src/components/UseRefHook';
+import ModalDialogBox from './src/components/ModalDialogBox';
 
 const App = () => {
   return (
@@ -85,10 +86,16 @@ const App = () => {
 
       {/*  step: 18*/}
       {/* <PressableComponent /> */}
-
+      
+      {/*  step: 19*/}
       {/* <StatusBarExample /> */}
 
-      <UseRefHook/>
+      {/*  step: 20*/}
+      {/* <UseRefHook/> */}
+
+      {/*  step: 21*/}
+      <ModalDialogBox/>
+
     </View>
   );
 };
