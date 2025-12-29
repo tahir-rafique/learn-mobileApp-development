@@ -22,6 +22,7 @@ import StatusBarExample from './src/components/StatusBarExample';
 import UseRefHook from './src/components/UseRefHook';
 import ModalDialogBox from './src/components/ModalDialogBox';
 import AlertComp from './src/components/AlertComp';
+import GetAPI from './src/components/GetAPI';
 
 const App = () => {
   return (
@@ -87,7 +88,7 @@ const App = () => {
 
       {/*  step: 18*/}
       {/* <PressableComponent /> */}
-      
+
       {/*  step: 19*/}
       {/* <StatusBarExample /> */}
 
@@ -98,7 +99,12 @@ const App = () => {
       {/* <ModalDialogBox/> */}
 
 
-      <AlertComp/>
+      {/* <AlertComp/> */}
+
+
+      {/* <GET_API/> */}
+
+      <GetAPI />
 
     </View>
   );
