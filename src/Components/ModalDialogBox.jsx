@@ -3,32 +3,32 @@ import React, { useState } from 'react';
 
 const ModalDialogBox = () => {
     const [modalVisible, setModalVisible] = useState(false);
-  return (
-    <View style={styles.container}>
-      <TouchableOpacity
-      style={styles.openButton}
-      onPress={() => setModalVisible(true)}
-      >
-        <Text style={styles.buttonText}>Show Modal</Text>
-      </TouchableOpacity>
-      <Modal
-      transparent={true}
-      visible={modalVisible}
-      animationType="fade"
-      onRequestClose={() => setModalVisible(false)}
-      >
-        <View style={styles.modalOverlay}>
-            <View style={styles.modalView}>
-                <Text style={styles.modalTitle}>Beautiful Modal</Text>
-                <Text style={styles.modalText}>This is Beautiful Modal</Text>
-                <TouchableOpacity style={styles.closeButton} onPress={() => setModalVisible(false)}>
-                    <Text style={styles.closeButtonText}>Close</Text>
-                </TouchableOpacity>
-            </View>
+    return (
+        <View style={styles.container}>
+            <TouchableOpacity
+                style={styles.openButton}
+                onPress={() => setModalVisible(true)}
+            >
+                <Text style={styles.buttonText}>Show Modal</Text>
+            </TouchableOpacity>
+            <Modal
+                transparent={true}
+                visible={modalVisible}
+                animationType="fade"
+                onRequestClose={() => setModalVisible(false)}
+            >
+                <View style={styles.modalOverlay}>
+                    <View style={styles.modalView}>
+                        <Text style={styles.modalTitle}>Beautiful Modal</Text>
+                        <Text style={styles.modalText}>This is Beautiful Modal</Text>
+                        <TouchableOpacity style={styles.closeButton} onPress={() => setModalVisible(false)}>
+                            <Text style={styles.closeButtonText}>Close</Text>
+                        </TouchableOpacity>
+                    </View>
+                </View>
+            </Modal>
         </View>
-      </Modal>
-    </View>
-  );
+    );
 };
 
 export default ModalDialogBox;
@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
         paddingVertical: 12,
         paddingHorizontal: 24,
         borderRadius: 8,
-        elevation: 2,
+        elevation: 2,  // shadow
     },
     buttonText: {
         color: '#fff',

@@ -21,6 +21,7 @@ import PressableComponent from './src/components/PressableComponent';
 import StatusBarExample from './src/components/StatusBarExample';
 import UseRefHook from './src/components/UseRefHook';
 import ModalDialogBox from './src/components/ModalDialogBox';
+import AlertComp from './src/components/AlertComp';
 
 const App = () => {
   return (
@@ -94,7 +95,10 @@ const App = () => {
       {/* <UseRefHook/> */}
 
       {/*  step: 21*/}
-      <ModalDialogBox/>
+      {/* <ModalDialogBox/> */}
+
+
+      <AlertComp/>
 
     </View>
   );
