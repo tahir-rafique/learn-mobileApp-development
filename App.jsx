@@ -1,28 +1,32 @@
 import React from 'react';
 import { View } from 'react-native';
-import JSX from './src/components/JSX';
-import OnPress from './src/components/OnPress';
-import UseStateHook from './src/components/UseStateHook';
-import Props from './src/components/Props';
-import InputText from './src/components/InputText';
-import Styling from './src/components/Styling';
-import FlatListScreen from './src/components/FlatListScreen';
-import SectionListScreen from './src/components/SectionListScreen';
-import LoginForm from './src/components/LoginForm';
-import ContactListScreen from './src/screens/Contact/ContactListScreen';
-import Grid from './src/components/Grid';
-import ClassBasedComponent from './src/components/ClassBasedComponent';
-import UseEffectHookMountingPhase from './src/components/UseEffectHookMountingPhase';
-import UseEffectHookUpdatingPhase from './src/components/UseEffectHookUpdatingPhase';
-import UseEffectHookUnmoutingPhase from './src/components/UseEffectHookUnmoutingPhase';
-import StyleWithButton from './src/components/StyleWithButton';
-import Loader from './src/components/Loader';
-import PressableComponent from './src/components/PressableComponent';
-import StatusBarExample from './src/components/StatusBarExample';
-import UseRefHook from './src/components/UseRefHook';
-import ModalDialogBox from './src/components/ModalDialogBox';
-import AlertComp from './src/components/AlertComp';
-import GetAPI from './src/components/GetAPI';
+import API_PATCH from './src/components/API_PATCH';
+import API_DEL from './src/components/API_DEL';
+// import JSX from './src/components/JSX';
+// import OnPress from './src/components/OnPress';
+// import UseStateHook from './src/components/UseStateHook';
+// import Props from './src/components/Props';
+// import InputText from './src/components/InputText';
+// import Styling from './src/components/Styling';
+// import FlatListScreen from './src/components/FlatListScreen';
+// import SectionListScreen from './src/components/SectionListScreen';
+// import LoginForm from './src/components/LoginForm';
+// import ContactListScreen from './src/screens/Contact/ContactListScreen';
+// import Grid from './src/components/Grid';
+// import ClassBasedComponent from './src/components/ClassBasedComponent';
+// import UseEffectHookMountingPhase from './src/components/UseEffectHookMountingPhase';
+// import UseEffectHookUpdatingPhase from './src/components/UseEffectHookUpdatingPhase';
+// import UseEffectHookUnmoutingPhase from './src/components/UseEffectHookUnmoutingPhase';
+// import StyleWithButton from './src/components/StyleWithButton';
+// import Loader from './src/components/Loader';
+// import PressableComponent from './src/components/PressableComponent';
+// import StatusBarExample from './src/components/StatusBarExample';
+// import UseRefHook from './src/components/UseRefHook';
+// import ModalDialogBox from './src/components/ModalDialogBox';
+// import AlertComp from './src/components/AlertComp';
+// import API_GET from './src/components/API_GET';
+// import API_POST from './src/components/API_POST';
+// import API_PUT from './src/components/API_PUT';
 
 const App = () => {
   return (
@@ -98,14 +102,23 @@ const App = () => {
       {/*  step: 21*/}
       {/* <ModalDialogBox/> */}
 
-
+      {/*  step: 22 */}
       {/* <AlertComp/> */}
 
+      {/*  step: 23 */}
+      {/* <API_GET /> */}
 
-      {/* <GET_API/> */}
+      {/*  step: 24 */}
+      {/* <API_POST /> */}
 
-      <GetAPI />
+      {/*  step: 25 */}
+      {/* <API_PUT /> */}
 
+      {/*  step: 26 */}
+      {/* <API_PATCH /> */}
+
+      {/*  step: 27 */}
+      <API_DEL />
     </View>
   );
 };
