@@ -1,7 +1,8 @@
 import React from 'react';
 import { View } from 'react-native';
-import API_PATCH from './src/components/API_PATCH';
-import API_DEL from './src/components/API_DEL';
+import API_GET_List from './src/components/API_GET_List';
+// import API_PATCH from './src/components/API_PATCH';
+// import API_DEL from './src/components/API_DEL';
 // import JSX from './src/components/JSX';
 // import OnPress from './src/components/OnPress';
 // import UseStateHook from './src/components/UseStateHook';
@@ -118,7 +119,11 @@ const App = () => {
       {/* <API_PATCH /> */}
 
       {/*  step: 27 */}
-      <API_DEL />
+      {/* <API_DEL /> */}
+
+      {/*  step: 28 */}
+      <API_GET_List />
+
     </View>
   );
 };
