@@ -5,6 +5,7 @@ const API_GET_List = () => {
     return (
         <View>
             <Text>API_GET_List</Text>
+            <Text>API_GET_List</Text>
         </View>
     )
 }
